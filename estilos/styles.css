@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+
+}
+.titulo_pagina{
+    color: darkgoldenrod;
+    text-align: center;
+    margin: 50px 40px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    
+}
+footer{
+    background-color: rgb(23, 23, 23);
+}
+.medio-de-pago{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-pago{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.listaSecciones li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.secciones{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.formularioColor{
+    color: darkgoldenrod;
+}
+
+.imagenes{
+    margin: 10px;
+    border: solid darkgoldenrod;
+    height: 600px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.textoFooter{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.terminos{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.secciones:hover{
+    background-color: #434343;
+    transition: 1s;
+}
+
+.subtitulos{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+.tablaFooter{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas: "header "
+                         "main "
+                         "footer ";   
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+
+
+@media (max-width: 480px){
+    .imagenes{
+        width: 70px;
+        height: 200px;
+        padding: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+        padding-right: 50px;
+    }
+    .listaSecciones li{
+        font-size: 8px;
+        padding-right: 50px;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    .secciones{
+        margin: -35px;
+        padding-right: 40px;
+    }
+    .img-pago{
+        width: 80px;
+        height: 80px;
+    }
+    .medio-de-pago{
+        font-size: 20px;
+    }
+    .terminos{
+        font-size: 10px;
+    }
+}/*para mobile*/
+
+

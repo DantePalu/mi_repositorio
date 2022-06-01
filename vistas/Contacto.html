@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="grilla">
+        <header class="header">
+            <img src="../imagenes/contacto.png" alt="" class="logo">
+            <nav>
+                <ul class="listaSecciones" >
+                    <li><a href="../index.html" class="secciones">Inicio</a></li>
+                    <li><a href="./hombres.html" class="secciones" >Hombres</a></li>
+                    <li><a href="./mujeres.html" class="secciones" >Mujeres</a></li>
+                    <li><a href="./Kids.html" class="secciones" >Kids</a></li>
+                    <li class="secciones" >Contacto</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" method="get" enctype="text/plain">
+                <label for="userName" class="formularioColor" >Nombre:</label>
+                <input type="text" name="userName" id="userName" required><br><br>
+                <div>
+                    <label for="userMail" class="formularioColor" >Email:</label>
+                    <input type="email" name="userMail" id="userMail" required><br><br>
+                </div>
+                <div>
+                    <label for="userNumber" class="formularioColor" >Numero Telefonico:</label>
+                    <input type="tel" name="userNumber" id="userNumber" required><br><br>
+                </div>
+                <div>
+                    <label for="Mensaje" class="formularioColor" >Mensaje:</label>
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="3" required></textarea><br><br>
+                </div>
+                <input type="submit" value="Enviar"><br>
+                <br>
+                <div>
+                    <label for="seleccionar" class="formularioColor" >Desea recibir notificaciones?</label>
+                    <input type="checkbox" name="seleccionar" id="seleccionar">
+                </div>
+            </form>
+        </main>
+        <footer class="gridFooter">
+            <table class="tablaFooter">
+                <tr>
+                    <td><a href="../vistas/ayuda.html" class="terminos">Ayuda</a></td>
+                    <td><a href="../vistas/Aviso-legal.html" class="terminos">Aviso legal</a></td>
+                    <td><a href="../vistas/Politicas-de-privacidad.html" class="terminos">Politicas de privacidad</a></td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+</body>
+</html>
